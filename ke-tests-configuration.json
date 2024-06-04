@@ -1,0 +1,53 @@
+{
+	"input": "./Inputs/lines.png",
+	"output": "./ExpectedOutputs",
+    "clearOutputDirectory": true,
+	"transforms": [
+		{
+			"kind": "kaleidoscope",
+			"configuration": {
+				"count": 1,
+                "angle": 0,
+				"fillMode": "tile"
+			}
+		},
+        {
+            "kind": "kaleidoscope",
+            "configuration": {
+                "count": 3,
+                "angle": 0,
+                "fillMode": "tile"
+            }
+        },
+        {
+            "kind": "kaleidoscope",
+            "configuration": {
+                "count": 3,
+                "angle": 0.8,
+                "fillMode": "tile"
+            }
+        },
+        {
+            "kind": "kaleidoscope",
+            "configuration": {
+                "count": 3,
+                "angle": 0,
+                "fillMode": "blank"
+            }
+        },
+        {
+            "kind": "kaleidoscope",
+            "configuration": {
+                "count": 5,
+                "angle": 0.4,
+                "fillMode": "blank"
+            }
+        },
+        {
+            "kind": "triangleKaleidoscope",
+            "configuration": {
+                "size": 200
+            }
+        }
+	]
+}

@@ -1,0 +1,19 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+.vscode
+
+# Kaleidoscope Engine directories
+DifferentSizedInputs
+ExpectedOutputs
+Outputs
+Tests/KaleidoscopeEngineTests/ProducedOutputs
+
+# Kaleidoscope Engine configurations
+working-configuration.json
+working-sizes-configuration.json

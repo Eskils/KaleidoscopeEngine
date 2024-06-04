@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "6F6A6001-5960-45BC-A71D-ACD9463BD8A4",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "KaleidoscopeEngineTests",
+        "name" : "KaleidoscopeEngineTests"
+      }
+    }
+  ],
+  "version" : 1
+}
